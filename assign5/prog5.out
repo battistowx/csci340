@@ -1,0 +1,38 @@
+Number of people? 41
+Index for elimination? 3
+Index for printing? 7
+
+Initial group of people
+-----------------------
+A1 A2 A3 A4 A5 A6 A7 A8 A9 B1 B2 B3 
+B4 B5 B6 B7 B8 B9 C1 C2 C3 C4 C5 C6 
+C7 C8 C9 D1 D2 D3 D4 D5 D6 D7 D8 D9 
+E1 E2 E3 E4 E5 
+
+After eliminating 7th person
+A2 A3 A5 A6 A8 A9 B2 B3 B5 B6 B8 B9 
+C2 C3 C5 C6 C8 C9 D2 D3 D5 D6 D8 D9 
+E2 E3 E5 
+
+After eliminating 14th person
+A3 A5 A8 A9 B3 B5 B8 B9 C3 C5 C8 C9 
+D3 D5 D8 D9 E3 E5 
+
+After eliminating 21th person
+A5 A8 B3 B5 B9 C3 C8 C9 D5 D8 E3 E5 
+
+After eliminating 28th person
+A8 B3 B9 C3 C9 D5 E3 E5 
+
+After eliminating 35th person
+B3 B9 C9 D5 E5 
+
+After eliminating 42th person
+B9 C9 E5 
+
+After eliminating 49th person
+C9 E5 
+
+After eliminating 56th person
+
+

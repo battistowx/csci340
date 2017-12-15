@@ -1,0 +1,61 @@
+	*** Hashing with separate chaining ***
+
+insert: :KT5:  14:executive desk          : Item: 5
+insert: :ZZ0:   5:wooden bookcase         : Item: 23
+insert: :FT7:  25:metal bookshelf         : Item: 9
+insert: :AS2: 100:metal waste basket      : Item: 27
+insert: :DF5:1019:printer paper           : Item: 29
+insert: :TH1:2029:copier paper            : Item: 20
+insert: :GN2:  15:electric typewriter     : Item: 18
+insert: :QJ8:   1:IMB system/2 PC         : Item: 11
+
+hTable_print:
+entry  key    number    description
+5: KT5 Desc: executive desk Num: 14
+9: FT7 Desc: metal bookshelf Num: 25
+11: QJ8 Desc: IMB system/2 PC Num: 1
+18: GN2 Desc: electric typewriter Num: 15
+20: TH1 Desc: copier paper Num: 2029
+23: ZZ0 Desc: wooden bookcase Num: 5
+27: AS2 Desc: metal waste basket Num: 100
+29: DF5 Desc: printer paper Num: 1019
+insert: :KT5: 786:mahogany desk           :Duplicate key, not inserted
+insert: :BC3: 628:pencil sharpener        : Item: 4
+insert: :CK7: 516:wall calendar           : Item: 7
+insert: :AA2:  30:looseleaf binder        : Item: 2
+insert: :PA1: 102:filing cabinet          : Item: 26
+insert: :VL2:1017:paper clips             : Item: 23
+insert: :XS6: 103:pink pearl eraser       : Item: 28
+insert: :AT4: 404:desk calendar           : Item: 8
+insert: :ZL0: 606:manila file folder      : Item: 7
+insert: :XS6:1000:gum erasers             :Duplicate key, not inserted
+search: key ZZ0 Number: ZZ0 Desc: wooden bookcase
+search: key GN2 Number: GN2 Desc: electric typewriter
+search: key VL2 Number: VL2 Desc: paper clips
+search: key PA1 Number: PA1 Desc: filing cabinet
+search: key XS6 Number: XS6 Desc: pink pearl eraser
+search: key ZL0 Number: ZL0 Desc: manila file folder
+search: key CQ8Item not found
+search: key JD6Item not found
+search: key KL8Item not found
+search: key SP3Item not found
+
+hTable_print:
+entry  key    number    description
+2: AA2 Desc: looseleaf binder Num: 30
+4: BC3 Desc: pencil sharpener Num: 628
+5: KT5 Desc: executive desk Num: 14
+7: ZL0 Desc: manila file folder Num: 606
+7: CK7 Desc: wall calendar Num: 516
+8: AT4 Desc: desk calendar Num: 404
+9: FT7 Desc: metal bookshelf Num: 25
+11: QJ8 Desc: IMB system/2 PC Num: 1
+18: GN2 Desc: electric typewriter Num: 15
+20: TH1 Desc: copier paper Num: 2029
+23: VL2 Desc: paper clips Num: 1017
+23: ZZ0 Desc: wooden bookcase Num: 5
+26: PA1 Desc: filing cabinet Num: 102
+27: AS2 Desc: metal waste basket Num: 100
+28: XS6 Desc: pink pearl eraser Num: 103
+29: DF5 Desc: printer paper Num: 1019
+Segmentation fault (core dumped)

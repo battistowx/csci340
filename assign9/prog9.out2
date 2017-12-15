@@ -1,0 +1,78 @@
+	*** Hashing with separate chaining ***
+
+insert: :HK3: 909:1 times anything        : Item: 1
+insert: :QH8: 918:end point               : Item: 22
+insert: :MH4:  16:catfish                 : Item: 1
+insert: :XZ4:2020:generative grammar      : Item: 3
+insert: :KL0: 117:double take             : Item: 13
+insert: :BH7: 722:imagination             : Item: 27
+insert: :KT5:3014:aardvark                : Item: 5
+insert: :UT7:2008:zirconium oxide         : Item: 3
+insert: :FA5: 221:headless horseman       : Item: 3
+insert: :MZ7:1826:milling machine         : Item: 29
+insert: :RZ5:2015:bookcase                : Item: 25
+insert: :AS2: 700:rate of exchange        : Item: 27
+insert: :ZH0: 603:unfashionable           : Item: 29
+insert: :KC8:1727:nitrogen narcosis       : Item: 24
+insert: :HA2: 319:follow through          : Item: 24
+insert: :ES9:1010:2 times 2 times 2       : Item: 20
+insert: :ZZ8:  23:jungle jack             : Item: 0
+insert: :AT4: 502:third base              : Item: 8
+insert: :YE6: 728:overqualified           : Item: 24
+insert: :BN1:8924:knock-down-drag-out     : Item: 19
+insert: :RE4:4311:3 plus 3 plus 3         : Item: 0
+insert: :VL2:9025:long-distance           : Item: 23
+insert: :XG2:5029:parliamentary law       : Item: 28
+insert: :AF0: 707:yankee yawl             : Item: 19
+insert: :ZJ0:1030:quantum number          : Item: 18
+insert: :TG9:   4:visual aid              : Item: 18
+insert: :RT8:1212:4 by 4                  : Item: 30
+insert: :DF5: 101:state university        : Item: 29
+insert: :SP3:8005:ways and means          : Item: 28
+insert: :MT4:1313:5 divided by pi         : Item: 28
+insert: :WA0:5006:x-coordinate            : Item: 16
+insert: :UP7:9999:erehwon                 : Item: 25
+insert: :GN2: 999:not this time           : Item: 18
+insert: :BN1:  99:still can't do it       :Duplicate key, not inserted
+search: key VL2 Number: VL2 Desc: long-distance
+search: key UP7 Number: UP7 Desc: erehwon
+search: key KT5 Number: KT5 Desc: aardvark
+search: key ZJ0 Number: ZJ0 Desc: quantum number
+search: key UU2Item not found
+
+hTable_print:
+entry  key    number    description
+0: RE4 Desc: 3 plus 3 plus 3 Num: 4311
+0: ZZ8 Desc: jungle jack Num: 23
+1: MH4 Desc: catfish Num: 16
+1: HK3 Desc: 1 times anything Num: 909
+3: FA5 Desc: headless horseman Num: 221
+3: UT7 Desc: zirconium oxide Num: 2008
+3: XZ4 Desc: generative grammar Num: 2020
+5: KT5 Desc: aardvark Num: 3014
+8: AT4 Desc: third base Num: 502
+13: KL0 Desc: double take Num: 117
+16: WA0 Desc: x-coordinate Num: 5006
+18: GN2 Desc: not this time Num: 999
+18: TG9 Desc: visual aid Num: 4
+18: ZJ0 Desc: quantum number Num: 1030
+19: AF0 Desc: yankee yawl Num: 707
+19: BN1 Desc: knock-down-drag-out Num: 8924
+20: ES9 Desc: 2 times 2 times 2 Num: 1010
+22: QH8 Desc: end point Num: 918
+23: VL2 Desc: long-distance Num: 9025
+24: YE6 Desc: overqualified Num: 728
+24: HA2 Desc: follow through Num: 319
+24: KC8 Desc: nitrogen narcosis Num: 1727
+25: UP7 Desc: erehwon Num: 9999
+25: RZ5 Desc: bookcase Num: 2015
+27: AS2 Desc: rate of exchange Num: 700
+27: BH7 Desc: imagination Num: 722
+28: MT4 Desc: 5 divided by pi Num: 1313
+28: SP3 Desc: ways and means Num: 8005
+28: XG2 Desc: parliamentary law Num: 5029
+29: DF5 Desc: state university Num: 101
+29: ZH0 Desc: unfashionable Num: 603
+29: MZ7 Desc: milling machine Num: 1826
+30: RT8 Desc: 4 by 4 Num: 1212
+Segmentation fault (core dumped)
